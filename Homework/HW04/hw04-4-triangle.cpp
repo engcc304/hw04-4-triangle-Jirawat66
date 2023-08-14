@@ -13,3 +13,19 @@
     Output:
         Triagle Area : 7.5
 */
+#include <stdio.h>
+
+int main() {
+    int H ;
+    int W ;
+    int a = 0.5 ;
+    int answer ;
+
+    printf("Enter H & W :\n") ;
+    scanf("%d %d",&H , &W) ;
+
+    answer = 0.5 * H * W ;
+    printf(" Triagle Area : %d", &answer) ;
+    
+    return 0 ;
+}
