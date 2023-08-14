@@ -13,6 +13,7 @@
     Output:
         Triagle Area : 7.5
 */
+/*
 #include <stdio.h>
 
 int main() {
@@ -21,11 +22,29 @@ int main() {
     int a = 0.5 ;
     int answer ;
 
-    printf("Enter H & W :\n") ;
+    //printf("Enter H & W :\n") ;
     scanf("%d %d",&H , &W) ;
-
     answer = 0.5 * H * W ;
-    printf(" Triagle Area : %d", &answer) ;
+    printf("Triagle Area : %d", &answer) ;
     
     return 0 ;
+}
+
+*/
+#include <stdio.h>
+  
+int main()
+{
+    float base;
+    float height;
+  
+    printf("\nInput value of base : ");
+    scanf("%f", &base);
+  
+    printf("Input value of height : ");
+    scanf("%f", &height);
+       
+    printf("\nArea of a Triangle is %.2f \n\n", 0.5 * base * height);
+  
+    return 0;
 }
