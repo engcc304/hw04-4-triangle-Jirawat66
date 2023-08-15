@@ -35,16 +35,12 @@ int main() {
   
 int main()
 {
-    float base;
-    float height;
-  
-    printf("\nInput value of base : ");
-    scanf("%f", &base);
-  
-    printf("Input value of height : ");
-    scanf("%f", &height);
-       
-    printf("\nArea of a Triangle is %.2f \n\n", 0.5 * base * height);
-  
-    return 0;
+    float H ;
+    float W ;
+    
+    printf("Enter H & W : ") ;
+    scanf("%f", &H ) ;
+    scanf("%f", &W ) ;
+    printf("\nTriagle Area : %.1f \n", 0.5 * H * W ) ;
+    return 0 ;
 }
